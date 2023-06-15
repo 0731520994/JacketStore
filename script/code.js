@@ -1,31 +1,31 @@
 let products = [
     {
       id: '1',
-      image: '../images/Kiddies-J (girls)/kids_Biker_Jacket-removebg-preview (8).png',
+      image: 'https://i.postimg.cc/c46dfMDm/kids-Biker-Jacket-removebg-preview-8-edited.jpg',
       name: 'Biker jacket',
       price: 'R250'
     },
     {
       id: '2',
-      image: '../images/Kiddies-J (girls)/Puffer-Jacket-removebg-preview (1).png',
-      name: 'Puffer jacket',
+      image: 'https://i.postimg.cc/fbs4qxv1/Mickey-Mouse-Bomber.jpg',
+      name: 'Micky Mouse Bomber Jacket',
       price: 'R220'
     },
     {
       id: '3',
-      image: '../images/teens-J (girls)/teens_Stone_faux_fur_lined_bicker_jacket-removebg-preview.png',
-      name: 'Stone faux fur lined biker jacket',
-      price: 'R450'
+      image: 'https://i.postimg.cc/5yzBwyTV/barbie-girls-barbie-fleece.jpg',
+      name: 'Barbie fleece Jacket',
+      price: 'R250'
     },
     {
       id: '4',
-      image: '../images/tenns-J (boys)/men_corduroy_demin-removebg-preview.png',
-      name: 'Corduroy denim jacket',
-      price: 'R1500'
+      image: 'https://i.postimg.cc/SQtFGrbw/Borg-collar-flap-Detail-coat.jpg',
+      name: 'Bprg collar flap',
+      price: 'R350'
     },
     {
       id: '5',
-      image: '../images/tenns-J (boys)/Utility_puffer_jacket-removebg-preview (1).png',
+      image: 'https://i.postimg.cc/Y9qZ64nr/Puffer-Jacket.jpg',
       name: 'Puffer Jacket',
       price: 'R800'
     }
@@ -45,16 +45,24 @@ let products = [
             <h5 class="card-title">${item.name}</h5>
             <p class="card-text">${item.price}</p>
             <select class="jacket">
-              <option>select color</option>
-              <option value="color">black</option>
-              <option value="color">white</option>
-              <option value="color">Navy</option>
-              <option value="color">pink</option>
-            </select>
-            <a href="./products.js" class="btn btn-primary">Add to cart</a>
+            <option>select size</option>
+            <option value="size">3-4yrs</option>
+            <option value="size">5-6yrz</option>
+            <option value="size">7-8yrs</option>
+            <option value="size">S</option>
+            <option value="size">M</option>
+            <option value="size">L</option>
+            <a href="./products.js" class="btn btn-primary style="color: hotpink">Add to cart</a>
         
           </div>
         </div>
       </div>
     `;
   });
+
+
+
+
+
+
+    
