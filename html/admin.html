@@ -46,7 +46,6 @@
 
 <h1>Admin</h1>
     
-
 <div class="links">
   <a href="#" class="card-link">Sorting</a>
   <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#addProductModal">Add new product</a>
@@ -60,19 +59,15 @@
           </button>
         </div>
         <div class="modal-body">
-            <label>
-              Product Name:
-            </label>
-              <input type="text" name="productName" id="name">
-            <label>
-              Product Price:
-            </label>
-              <input type="text" name="productPrice" id="price"><br>
-              <label>
-                URL:
-              </label>
-                <input type="text" name="urlName" id="url">
-            <button type="submit" onclick="addItem()">Add Product</button>
+          <form onsubmit="addItem(event)">
+            <label for="name">Product Name:</label>
+            <input type="text" name="productName" id="name">
+            <label for="price">Product Price:</label>
+            <input type="text" name="productPrice" id="price"><br>
+            <label for="image">URL:</label>
+            <input type="text" name="urlName" id="image">
+            <button type="submit">Add Product</button>
+          </form>
         </div>
       </div>
     </div>

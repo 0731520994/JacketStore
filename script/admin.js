@@ -67,35 +67,36 @@ let jackets = [
   document.onload = displayData();
   
   //add
+
+  function addItem(event) {
+    event.preventDefault(); 
   
-  function addItem() {
-  let name = document.querySelector('#name').value;
-  let price = document.querySelector('#price').value;
-  let image = document.querySelector('#image').value;
-  // console.log('reached');
-  let jackets
+    let name = document.querySelector('#name').value;
+    let price = document.querySelector('#price').value;
+    let image = document.querySelector('#image').value;
   
-  if(localStorage.getItem('jackets') == null) {
-    jackets = [];
-  }else {
-    jackets = JSON.parse(localStorage.getItem('jackets'))
+    let jackets;
+  
+    if (localStorage.getItem('jackets') == null) {
+      jackets = [];
+    } else {
+      jackets = JSON.parse(localStorage.getItem('jackets'));
+    }
+  
+    jackets.push({
+      name: name,
+      price: price,
+      image: image
+    });
+  
+    localStorage.setItem('jackets', JSON.stringify(jackets));
+    displayData();
+  
+    document.querySelector('#name').value = '';
+    document.querySelector('#price').value = '';
+    document.querySelector('#image').value = '';
   }
   
-  console.log(jackets);
-  
-  jackets.push({
-    name: name,
-    price: price,
-    image: image
-  })
-  
-  localStorage.setItem('jackets', JSON.stringify(jackets));
-  displayData();
-  
-  name = document.querySelector('#name').value = '';
-  price = document.querySelector('#price').value = '';
-  image = document.querySelector('#image').value = '';
-  }
   
   
   
@@ -158,9 +159,9 @@ let jackets = [
     jackets.forEach((item, index) => {
       tableData.innerHTML += `
       <tr>
+      <td>${item.name}</td>
+      <td>${item.price}</td>
         <td><img src="${item.image}"></td>
-        <td>${item.name}</td>
-        <td>${item.price}</td>
         <td>
           <button class="delete-button" onclick="deleteItem(${index})">Delete</button>
           <button class="edit-button" onclick="editItem(${index})">Edit</button>
@@ -177,7 +178,7 @@ let jackets = [
     const priceInput = prompt('Enter the new price:', jacket.price);
     const imageInput = prompt('Enter the new image URL:', jacket.image);
   
-    // Update the jacket object in the array if inputs are not empty
+  
     if (nameInput !== null && nameInput !== '') {
       jacket.name = nameInput;
     }

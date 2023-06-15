@@ -1,26 +1,26 @@
 let products = [
     {
       id: '1',
-      image: 'https://i.postimg.cc/c46dfMDm/kids-Biker-Jacket-removebg-preview-8-edited.jpg',
+      image: 'https://i.postimg.cc/sDXxJk8C/kids-Biker-Jacket-removebg-preview-1.png',
       name: 'Biker jacket',
       price: 'R250'
     },
     {
       id: '2',
-      image: 'https://i.postimg.cc/fbs4qxv1/Mickey-Mouse-Bomber.jpg',
+      image: 'https://i.postimg.cc/8CbxfdbX/Mickey-Mouse-Bomber.jpg',
       name: 'Micky Mouse Bomber Jacket',
       price: 'R220'
     },
     {
       id: '3',
-      image: 'https://i.postimg.cc/5yzBwyTV/barbie-girls-barbie-fleece.jpg',
+      image: 'https://i.postimg.cc/Y08WRSVB/barbie-girls-barbie-fleece-removebg-preview-2.png',
       name: 'Barbie fleece Jacket',
       price: 'R250'
     },
     {
       id: '4',
-      image: 'https://i.postimg.cc/SQtFGrbw/Borg-collar-flap-Detail-coat.jpg',
-      name: 'Bprg collar flap',
+      image: 'https://i.postimg.cc/zvHh6jtx/Borg-collar-flap-Detail-coat.jpg',
+      name: 'Borg collar flap',
       price: 'R350'
     },
     {
@@ -52,8 +52,7 @@ let products = [
             <option value="size">S</option>
             <option value="size">M</option>
             <option value="size">L</option>
-            <a href="./products.js" class="btn btn-primary style="color: hotpink">Add to cart</a>
-        
+            <a href="#" class="btn btn-primary">Add to cart</a>
           </div>
         </div>
       </div>
