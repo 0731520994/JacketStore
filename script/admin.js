@@ -201,3 +201,4 @@ let jackets = [
     localStorage.setItem('jackets', JSON.stringify(jackets));
     displayData();
   }
+  
