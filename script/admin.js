@@ -2,14 +2,14 @@
 let jackets = [
     {
       id: '1',
-      image: '',
-      name: '',
+      image: 'https://i.postimg.cc/7LC32bvC/barbie-girls-barbie-fleece-removebg-preview-2.png',
+      name: 'Barbie girls fleece',
       price: 'R250'
     },
     {
       id: '2',
-      image: 'https://i.postimg.cc/xTM04FZg/kids-Biker-Jacket-removebg-preview-8.png',
-      name: 'Denim jacket',
+      image: '',
+      name: 'Biker jacket',
       price: 'R200'
     },
     {
