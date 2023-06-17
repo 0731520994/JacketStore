@@ -2,7 +2,7 @@
 let jackets = [
     {
       id: '1',
-      image: '',
+      image: 'Babie jacket',
       name: '',
       price: 'R250'
     },
@@ -27,9 +27,54 @@ let jackets = [
     {
       id: '5',
       image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: '',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
       name: 'Teddy jacket',
       price: 'R250'
-    }
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+    {
+      id: '5',
+      image: 'https://i.postimg.cc/NFNPJYcL/teddy-jacket-removebg-preview.png',
+      name: 'Teddy jacket',
+      price: 'R250'
+    },
+
+    
+
   ];
   
   
@@ -69,9 +114,10 @@ let jackets = [
   //add
   
   function addItem() {
+  let image = document.querySelector('#image').value;
   let name = document.querySelector('#name').value;
   let price = document.querySelector('#price').value;
-  let image = document.querySelector('#image').value;
+  
   // console.log('reached');
   let jackets
   
@@ -86,7 +132,7 @@ let jackets = [
   jackets.push({
     name: name,
     price: price,
-    image: image
+    
   })
   
   localStorage.setItem('jackets', JSON.stringify(jackets));
@@ -97,7 +143,7 @@ let jackets = [
   image = document.querySelector('#image').value = '';
   }
   
-  
+  /*
   
   function sortItem() {
     let name = document.querySelector('#name').value = '';
@@ -112,15 +158,15 @@ let jackets = [
     jacket = JSON.parse(localStorage.getItem('jacket'))
   }
   
-  
+  */
   
   //sort
   
   
   function sortItem() {
-    let name = document.querySelector('#name').value = '';
-    let price = document.querySelector('#price').value = '';
-    let image = document.querySelector('#image').value = '';
+    const name = document.querySelector('#name').value = '';
+    const price = document.querySelector('#price').value = '';
+    const image = document.querySelector('#image').value = '';
   
     jackets.sort((a, b) => {
       if (a.name < b.name) {
