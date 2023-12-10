@@ -1,60 +1,53 @@
 let products = [
-    {
-      id: '1',
-      image: '../images/Kiddies-J (girls)/kids_Biker_Jacket-removebg-preview (8).png',
-      name: 'Biker jacket',
-      price: 'R250'
-    },
-    {
-      id: '2',
-      image: '../images/Kiddies-J (girls)/Puffer-Jacket-removebg-preview (1).png',
-      name: 'Puffer jacket',
-      price: 'R220'
-    },
-    {
-      id: '3',
-      image: '../images/teens-J (girls)/teens_Stone_faux_fur_lined_bicker_jacket-removebg-preview.png',
-      name: 'Stone faux fur lined biker jacket',
-      price: 'R450'
-    },
-    {
-      id: '4',
-      image: '../images/tenns-J (boys)/men_corduroy_demin-removebg-preview.png',
-      name: 'Corduroy denim jacket',
-      price: 'R1500'
-    },
-    {
-      id: '5',
-      image: '../images/tenns-J (boys)/Utility_puffer_jacket-removebg-preview (1).png',
-      name: 'Puffer Jacket',
-      price: 'R800'
-    }
-  ];
+  {
+    id: '5',
+    image: 'https://i.postimg.cc/Y9qZ64nr/Puffer-Jacket.jpg',
+    name: '💓Puffer Jacket',
+    price: 'R220'
+  },
+  {
+    id: '9',
+    image: 'https://i.postimg.cc/Gm2BGbFh/Mickey-Mouse-Bomber.jpg',
+    name: '💙Mickey Mouse Bomber jacket',
+    price: 'R350'
+  },
+  {
+    id: '3',
+    image: 'https://i.postimg.cc/Y08WRSVB/barbie-girls-barbie-fleece-removebg-preview-2.png',
+    name: '💓Barbie fleece Jacket',
+    price: 'R250'
+  },
 
-  let featured = document.querySelector('.featured-item');
+];
 
-  products.forEach(item => {
-    featured.innerHTML += `
+let featured = document.querySelector('.featured-item');
+
+products.forEach(item => {
+  featured.innerHTML += `
 
 
 
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="${item.image}" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">${item.name}</h5>
-            <p class="card-text">${item.price}</p>
-            <select class="jacket">
-              <option>select color</option>
-              <option value="color">black</option>
-              <option value="color">white</option>
-              <option value="color">Navy</option>
-              <option value="color">pink</option>
-            </select>
-            <a href="./products.js" class="btn btn-primary">Add to cart</a>
-        
-          </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="${item.image}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${item.name}</h5>
+          <p class="card-text">${item.price}</p>
+          <select class="jacket">
+            <option>select size </option>
+            <option value="size">2-3yrs</option>
+            <option value="size">3-4yrs</option>
+            <option value="size">4-5yrs</option>
+            <option value="size">5-6yrs</option>
+            <option value="size">7-8yrs</option>
+            <option value="size">S</option>
+            <option value="size">M</option>
+            <option value="size">L</option>
+          </select>
+          <a href="./html/products.html" class="btn btn-primary">See more ...</a>
         </div>
       </div>
-    `;
-  });
+    </div>
+  `;
+});
+

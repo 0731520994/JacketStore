@@ -40,8 +40,8 @@ let productsContainer = document.querySelector('.jackets-item');
 try{
   products.forEach(item => {
     productsContainer.innerHTML += `
-      <div class="col">
-        <div class="card" style="width: 18rem;">
+      <div class="col" >
+        <div class="card" style="width: 18rem; justify-content: center; align-items: center">
           <img src="${item.image}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
@@ -53,7 +53,7 @@ try{
               <option value="color">Gold</option>
               <option value="color">pink</option>
             </select>
-            <a href="./products.js" class="btn btn-primary">Add to cart</a>
+            <a href="./products.html" class="btn btn-primary">Add to cart</a>
           </div>
         </div>
       </div>
