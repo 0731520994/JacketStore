@@ -1,74 +1,191 @@
 
+
 .custom-navbar {
-    background-color: lightpink;
+  background-color: lightpink;
+}
+
+.ul li a {
+text-decoration: none;
+transition: ease-in-out;
+}
+
+.navbar-nav
+
+.ul li a:hover{
+color: hotpink
+}
+
+
+
+ 
+ 
+ 
+
+.h1 {
+  justify-content: center;
+  font-size:xxx-large;
+  text-align: center;
+  text-decoration: underline hotpink;
+  text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+/* .container {
+  background-color: hotpink;
+  color: hotpink;
+} */
+
+.featured-item .card {
+  border: none;
+  box-shadow: 10% hotpink;
+}
+
+.featured-item .card-link {
+  background-color: hotpink;
+}
+
+
+.card {
+ 
+  text-shadow: 3px 6px 12px hotpink (0, 0, 0, 0.5);
+ 
+}
+#feature{
+  text-align: center;
+  justify-content: center;
+  font-size:xxx-large;
+  text-align: center;
+  text-decoration: underline hotpink;
+  text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+#feature1{
+  text-align: center;
+}
+
+
+
+#feature1 span{
+  font:bold hotpink ;
+  background-color: hotpink;
+}
+
+
+
+h2{
+ font-style: italic;
+ font-weight: 8000;
+ font-weight:lighter;
+ font-display: 100%;
+ text-shadow: 10px 2px 10px hotpink;
+ text-align: center;
+ padding-bottom: 80px;
+}
+
+.strong{
+  text-decoration: hotpink;
+}
+
+
+
+.img h2 {
+  position: absolute;
+  top: 70px;
+  right: 18px;
+ 
+}
+
+
+  
+  .img .jacket {
+    position: absolute;
+    top: 190px;
+    right: 180px;
+    color: hotpink;
+    font-size: 18px;
+    font-size: larger;
+    font: italic;
+    font-display: 100%;
+    text-shadow: 12px 1px 12px whitesmoke;
+    text-shadow: 0cqi;
+    text-decoration: underline white;
+    text-align: center;
+    padding-bottom: 80px;
+    font-weight: bolder;
+
   }
 
+  .front,
+  .text-overlay {
+    position:absolute;
+    top: 23rem;
+    left: 30rem;
+    color: rgb(42, 41, 41);
+    font-weight: bold;
+    text-shadow: 16px 2px 6px hotpink;
+    font-family:Gloria Hallelujah;
+    
 
-
-.img {
-    position: relative; 
-    width: 100%;
-    padding: 40px;
-    justify-self: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  }
+  
+  
+  .button.btn-primary {
+    position: absolute;
+    margin-top: 70%;
+    padding-left: 23%;
+    z-index: 1; 
+  }
+  
+  .btn {
+  
+    margin-top: 70%;
+    padding-left: 23%;
+    z-index: 1; 
+  }
+  .img {
+    position: relative;
+  
   }
   
   .img img {
-    width: 100%;
-    border-radius: 16%;
+    max-width: 100%;
+    height: auto;
   }
+  
 
-  .h1 {
-    justify-content: center;
-    font-size:xxx-large;
+
+  .footer{
+    background-color: hotpink;
     text-align: center;
-    text-decoration: underline hotpink;
-    text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
-  }
-
-
-  /* .container {
-    background-color: hotpink;
-    color: hotpink;
-  } */
-  
-  .featured-item .card {
-    border: none;
-  }
-  
-  .featured-item .card-link {
-    color: hotpink;
-  }
-  
-  .image-size {
-    width: 100%;
-    height: 100px; 
-  }
-
-  .card {
-    background-color: hotpink;
    
   }
-  #feature{
-    text-align: center;
-    justify-content: center;
-    font-size:xxx-large;
-    text-align: center;
-    text-decoration: underline hotpink;
-    text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
+
+  .btn {
+
+    top: 20%;
+    right: 23rem;
   }
 
-  #feature1{
-    text-align: center;
-  }
+  .body-fluid {
+    margin-bottom: 10rem;
+}
 
-  .strong{
-    font: italic;
+.featured-item .card {
+    border: none;
+    box-shadow: 10px 10px 10px hotpink;
+}
 
-  }
-  #feature1 span{
-    font:bold hotpink ;
+.featured-item .card-link {
     background-color: hotpink;
-  }
+}
+
+@media screen and (max-width: 650px) {
+    .featured-item.row.row-cols-1.row-cols-md-3.g-4 {
+        margin-left: 0 !important;
+    }
+    
+    .featured-item.row.row-cols-1.row-cols-md-3.g-4 .col {
+        margin-left: 0 !important;
+    }
+}
+
