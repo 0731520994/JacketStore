@@ -13,7 +13,7 @@ let products = [
   },
   {
     id: '3',
-    image: 'https://i.postimg.cc/Y08WRSVB/barbie-girls-barbie-fleece-removebg-preview-2.png',
+    image: 'https://i.postimg.cc/cJPFQT69/barbie-girls-barbie-fleece-removebg-preview-2-4.png',
     name: '💓Barbie fleece Jacket',
     price: 'R250'
   },
@@ -28,7 +28,7 @@ products.forEach(item => {
 
 
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card" >
         <img src="${item.image}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
@@ -44,10 +44,18 @@ products.forEach(item => {
             <option value="size">M</option>
             <option value="size">L</option>
           </select>
-          <a href="./html/products.html" class="btn btn-primary">See more ...</a>
+          <a href="./html/products.html" class="btn-wrap1 btn-primary">See more </a>
         </div>
       </div>
     </div>
+
+
+
+
   `;
 });
 
+document.querySelector('.scroll-down-arrow').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#featured').scrollIntoView({ behavior: 'smooth' });
+});

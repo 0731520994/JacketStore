@@ -1,191 +1,2199 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
+/* navbar start here*/
 
-.custom-navbar {
-  background-color: lightpink;
+.navbar-nav {
+  font-size: larger;
+  z-index: 5;
+  margin-top: 1rem;
+  font-family: "Gloria Hallelujah";
+  margin-left: 67%;
+  
+
 }
 
-.ul li a {
-text-decoration: none;
-transition: ease-in-out;
+.nav-item{
+  margin-right: 1rem;
+  
 }
 
-.navbar-nav
+.nav-item:hover{
+  background-color: #B69E6B;
+}
 
-.ul li a:hover{
-color: hotpink
+.nav-item a{
+color: #B69E6B;
 }
 
 
+.logo {
+  z-index: 5;
+  margin-top: 1rem;
+}
 
- 
- 
- 
+/* Navbar end */
 
-.h1 {
+
+/* body: cared and text start here */
+
+
+
+.card-title1 {
+  color: rgb(250, 240, 240);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+   margin-bottom: 2rem; 
+  margin-top:2rem;
+}
+
+.card-text1 {
+  color: white;
+ 
+  font-family: "Gloria Hallelujah";
+  font-size: 1.5rem;
+}
+
+.card-img {
+  position: relative;
+  font-weight: 400;
+}
+.home-img {
+  width: 100%;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size:xxx-large;
-  text-align: center;
-  text-decoration: underline hotpink;
-  text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
+  align-items: center;
 }
-
-
-/* .container {
-  background-color: hotpink;
-  color: hotpink;
-} */
-
-.featured-item .card {
-  border: none;
-  box-shadow: 10% hotpink;
-}
-
-.featured-item .card-link {
-  background-color: hotpink;
-}
-
 
 .card {
+  width: 22rem;
+}
+
+.body-fluid {
+  margin-bottom: 10rem;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+.scroll-down-arrow {
+  color: #B69E6B;
+  font-size: 3rem;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+  padding-top: 10rem;
+  margin-left: 50%;
+}
+
+/* body: cared and text ends  */
+
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+   margin-bottom: 2rem; 
+  margin-top: 6rem;
+  margin-left: 35%;
  
-  text-shadow: 3px 6px 12px hotpink (0, 0, 0, 0.5);
- 
-}
-#feature{
-  text-align: center;
-  justify-content: center;
-  font-size:xxx-large;
-  text-align: center;
-  text-decoration: underline hotpink;
-  text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
-}
-
-#feature1{
-  text-align: center;
 }
 
 
-
-#feature1 span{
-  font:bold hotpink ;
-  background-color: hotpink;
+.btn-wrap1 {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: #B69E6B;
+  color: black;
+  height: 8rem; 
+  border-radius: none;
+  border: none;
+  text-decoration: none;
+  padding: 7px 25px;
+  line-height: 58px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+  cursor: pointer;
+      
 }
 
-
-
-h2{
- font-style: italic;
- font-weight: 8000;
- font-weight:lighter;
- font-display: 100%;
- text-shadow: 10px 2px 10px hotpink;
- text-align: center;
- padding-bottom: 80px;
+.btn-wrap1:hover {
+  color: black;
+  border: 2px solid #B69E6B;
+  background-color: transparent;
 }
 
-.strong{
-  text-decoration: hotpink;
+.jacket {
+  font-family: "Gloria Hallelujah", cursive;
 }
 
+.card-title, .card-text {
+  font-family: "Gloria Hallelujah", cursive;
+}
 
+select {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: whitesmoke;
+}
+
+select.jacket option:hover {
+  background-color: red;
+  color: red;
+}
+
+/* Featured end */
+
+.ul li a {
+  text-decoration: none;
+  transition: ease-in-out;
+}
 
 .img h2 {
   position: absolute;
   top: 70px;
   right: 18px;
+}
+
+.img {
+  position: relative;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  margin-left: 4rem;
+}
+
+@media screen and (max-width: 650px) {
+  .featured-item.row.row-cols-1.row-cols-md-3.g-4 {
+    margin-left: 0 !important;
+  }
+
+  .featured-item.row.row-cols-1.row-cols-md-3.g-4 .col {
+    margin-left: 0 !important;
+  }
+}
+
+  
+/* Products start here */
+
+/*contact*/
+
+.card-titlec {
+  color: rgb(8, 8, 8);
+ 
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+   margin-bottom: 7rem; 
+  margin-top: 2rem;
+ 
+   
  
 }
 
 
-  
-  .img .jacket {
-    position: absolute;
-    top: 190px;
-    right: 180px;
-    color: hotpink;
-    font-size: 18px;
-    font-size: larger;
-    font: italic;
-    font-display: 100%;
-    text-shadow: 12px 1px 12px whitesmoke;
-    text-shadow: 0cqi;
-    text-decoration: underline white;
-    text-align: center;
-    padding-bottom: 80px;
-    font-weight: bolder;
+.jacket {
+  font-family: "Gloria Hallelujah", cursive;
+}
 
-  }
+.card-title, .card-text {
+  font-family: "Gloria Hallelujah", cursive;
+}
 
-  .front,
-  .text-overlay {
-    position:absolute;
-    top: 23rem;
-    left: 30rem;
-    color: rgb(42, 41, 41);
-    font-weight: bold;
-    text-shadow: 16px 2px 6px hotpink;
-    font-family:Gloria Hallelujah;
-    
+select {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: whitesmoke;
+}
 
-  }
-  
-  
-  .button.btn-primary {
-    position: absolute;
-    margin-top: 70%;
-    padding-left: 23%;
-    z-index: 1; 
-  }
-  
-  .btn {
-  
-    margin-top: 70%;
-    padding-left: 23%;
-    z-index: 1; 
-  }
-  .img {
+select.jacket option:hover {
+  background-color: red;
+  color: red;
+}
+
+/* Product  end */
+
+
+
+  /* footer section*/
+
+  .info_section .container{
+    flex-direction: column;
+    }
+
+
+  .footer_section {
     position: relative;
-  
-  }
-  
-  .img img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-
-
-  .footer{
-    background-color: hotpink;
+    background-color: #ffffff;
     text-align: center;
-   
+  }
+  
+  .footer_section p {
+    color: black;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section p a {
+    color: inherit;
   }
 
-  .btn {
 
-    top: 20%;
-    right: 23rem;
+  /* contact form */
+
+
+
+  
+  .form-main {
+
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
   }
+  
+  .main-wrapper {
+      /* border-radius: 10px; */
+      padding: 45px;
+      width: 60%;
+      box-shadow: 0 0 1px 1px #B69E6B;
+      backdrop-filter: blur(5px);
+      background-color: #ffffff85;
+  }
+  
+  @media screen and (max-width: 991px) {
+      .main-wrapper {
+          width: 70%;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+      .main-wrapper {
+          width: 90%;
+      }
+  }
+  
+  .form-head {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 600;
+      text-align: center;
+      margin: 0 0 25px;
+  }
+  
+  .form-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 15px;
+  }
+  
+  .form-card {
+      position: relative;
+      width: 100%;
+  }
+  
+  .form-input, .form-textarea {
+      padding: 20px 25px 15px;
+      width: 100%;
+      border: 1px solid #515151;
+      border-radius: 5px;
+      background: transparent;
+      outline: none;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      box-sizing: border-box;
+  }
+  
+  .form-input:valid, .form-input:focus, .form-textarea:valid, .form-textarea:focus {
+      border: 1px solid #515151;
+  }
+  
+  .form-label, .form-textarea-label {
+      position: absolute;
+      left: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      transition: 0.3s;
+      margin: 0;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+  }
+  
+  .form-input:valid ~ .form-label, .form-input:focus ~ .form-label {
+      color: #515151;
+      top: 30%;
+      transform: translateY(-70%);
+      font-size: 13px;
+      line-height: 23px;
+  }
+  
+  .form-textarea:valid ~ .form-textarea-label, .form-textarea:focus ~ .form-textarea-label {
+      color: #515151;
+      top: 18%;
+      transform: translateY(-82%);
+      font-size: 13px;
+      line-height: 23px;
+  }
+  
+  .btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 0 0;
+  }
+  
+  .btn-wrap button {
 
-  .body-fluid {
-    margin-bottom: 10rem;
-}
-
-.featured-item .card {
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: #B69E6B;
+    color: black;
+    height: 3rem;
+    border-radius: none;
+    font-size: larger;
     border: none;
-    box-shadow: 10px 10px 10px hotpink;
+
+      padding: 0 32px;
+      font-size: 18px;
+      line-height: 48px;
+      border: 1px solid transparent;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      
+  }
+  
+  .btn-wrap button:hover {
+      border: 1px solid #000;
+      background: transparent;
+  }
+  
+
+
+
+
+.contact-img{
+
+margin-bottom: 6rem;
+  }
+
+
+
+
+/* info section */
+
+.h2-footer {
+  color: rgb(250, 240, 240);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 11rem;
 }
 
-.featured-item .card-link {
-    background-color: hotpink;
+.info_section {
+  background-color: black;
+  color: #ffffff;
 }
 
-@media screen and (max-width: 650px) {
-    .featured-item.row.row-cols-1.row-cols-md-3.g-4 {
-        margin-left: 0 !important;
-    }
+.info_logo {
+  width: 80%;
+  margin: 0 auto 42px auto;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+.info_grid {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  gap: 10px;
+}
+
+.info_contact h5 {
+  font-size: larger;
+  z-index: 5;
+  margin-top: 1rem;
+  font-family: "Gloria Hallelujah";
+
+}
+
+
+.info_info p{
+padding-right: 35px;
+}
+.info_form h5,
+.info_info h5 {
+  font-size: larger;
+  z-index: 5;
+  margin-top: 1rem;
+  font-family: "Gloria Hallelujah";
+  text-align: center;
+}
+
+.info_contact p {
+  margin-bottom: 10px;
+
+}
+
+
+
+.form_control {
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.social_box {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+}
+
+.social_box a {
+  margin-right: 25px;
+  color: whitesmoke;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+  width: 30%;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+  width: 40%;
+}
+
+/* footer section */
+.footer_section {
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer_section p {
+  color: black;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
+
+/* subscribe button */
+.btn-sub {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: #B69E6B;
+  color: black;
+  height: 3rem;
+  border: none;
+  padding: 8px 30px;
+  margin-top: 15px;
+}
+
+.btn-sub:hover {
+  color: #B69E6B;
+  border: 2px solid #B69E6B;
+  background-color: transparent;
+}
+
+
+.jacket{
+  border:2px solid #B69E6B;
+  background-color: transparent;
+  color: black;
+}
+
+@media (min-width:342px) and (max-width: 413px) {
+  
+.jacket{
+  margin-left: 2.5rem;
+}
+
+.btn-wrap1 {
+  margin-left: 2rem;
+} .info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+}
+
+  
+@media (min-width:376px) and (max-width: 429px) {
+  
+  .jacket{
+    margin-left: 6rem;
+  }
+  
+  .btn-wrap1 {
+    margin-left: 4.7rem;
+  }
+  
+  .info_grid {
+  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  }
+
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+    display: none;
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 10%;
+ 
+} 
+
+.row{
+  margin-right: 2rem;
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+}
+
+
+
+@media screen  and (max-width: 299px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+    display: none;
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 10%;
+ 
+} 
+
+.row{
+  margin-right: 2rem;
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+}
+
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+    display: none;
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 10%;
+ 
+} 
+
+.row{
+  margin-right: 2rem;
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+}
+
+
+
+@media (min-width: 401px) and (max-width: 500px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+    display: none;
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 10%;
+ 
+} 
+
+.row{
+  margin-right: 2rem;
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+    display: none;
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 30%;
+ 
+} 
+
+.row{
+  margin-right: 2rem;
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.info_grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+}
+
+
+
+@media (min-width: 601px) and (max-width: 700px) {
+
+  .logo {
+    z-index: 5;
+    margin-bottom: 1rem;
+  }
+
+  .home-img{
+    height: 15rem;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1rem;
+    margin-left: 6rem ;
+    margin-right: 5rem ;
+    margin-bottom: 4rem;
+   
+
+  }
+
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 40%;
+ 
+} 
+
+.row{
+  margin-left: 9rem;
+  width: 60%;
+
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+
+
+/* Featured end */
+
+/*contact */
+
+.contact-img{
+  height: 6rem;
+}
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 80%;
+  margin: 0 auto 38px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin-bottom: 3rem;
+  align-items: center;
+  align-self: center;
+  margin-left: 1rem;
+
+}
+.info_contact h5{
+ font-size: x-large;
+ margin-left: 1rem;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin-left: 1rem;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+ 
+}
+
+.info_info p{
+ margin-left: 3rem;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin-right: 2rem;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+
+.container, .container-sm {
+  max-width: 750px;
+}
+
+}
+
+
+
+@media (min-width: 701px) and (max-width: 767px) {
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 35%;
+  font-size: 3rem;
+ 
+} 
+
+.row{
+  margin-left: 9rem;
+  width: 60%;
+
+}
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+/* Featured end */
+
+/* Contact */
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin-bottom: 5rem;
+  align-items: center;
+  align-self: center;
+  margin-left: 0.5rem;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin-left: 1rem;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  margin-left: 2.5rem;
+ }
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+.container, .container-sm {
+  max-width: 750px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .row {
+      margin-left: 0.5rem;
+      width: 100%;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 35%;
+  font-size: 3rem;
+ 
+} 
+
+
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+/* Featured end */
+
+/* Contact */
+
+.card-titlec {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin-left: 2rem;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  margin-left: 2rem;
+ }
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+.container, .container-sm {
+  max-width: 650px;
+}
+
+ .jacket{
+    margin-left: 2.5rem;
+   }
+   
+   .btn-wrap1 {
+     margin-left: 2rem;
+   } 
+
+   .container, .container-sm {
+    max-width: 850px;
+}
+
+}
+
+
+@media (min-width: 801px) and (max-width: 900px) {
+  .row {
+      margin-left: 0.5rem;
+      width: 100%;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 35%;
+  font-size: 3rem;
+  font-weight: 400;
+ 
+} 
+
+
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+/* Featured end */
+
+/* Contact */
+
+.card-titlec {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+
+  align-items: center;
+  align-self: center;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+}
+.info_contact h5{
+ font-size: x-large;
+ 
+}
+
+
+.info_info{
+  justify-content: center;
+  margin-left: 1rem;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+margin-left: 3rem;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+.container, .container-sm {
+  max-width: 650px;
+}
+
+ .jacket{
+    margin-left: 2.5rem;
+   }
+   
+   .btn-wrap1 {
+     margin-left: 2rem;
+   } 
+
+   .container, .container-sm {
+    max-width: 850px;
+}
+
+}
+
+  
+@media (min-width:901px) and (max-width: 950px) {
+  
+  .jacket{
+    margin-left: 3rem;
+  }
+  
+  .btn-wrap1 {
+    margin-left: 2rem;
+  }
+  
+  .info_grid {
+  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  }
+
+
+@media (min-width: 901px) and (max-width: 1000px) {
+  .row {
+      margin-left: 0.5rem;
+      width: 100%;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 35%;
+  font-size: 3.5rem;
+  font-weight: 400;
+ 
+} 
+
+
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+/* Featured end */
+
+/* Contact */
+
+.card-titlec {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+  margin-left: 4rem;
+}
+
+.info_info h5 {
+  font-size: x-large;
+
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+.container, .container-sm {
+  max-width: 950px;
+}
+
+
+}
+
+
+
+@media (min-width: 1001px) and (max-width: 1067px) {
+  
+  
+  .navbar-nav {
+    font-size: larger;
+    z-index: 5;
+    margin-top: 1rem;
+    font-family: "Gloria Hallelujah";
+    margin-left: 55%;
     
-    .featured-item.row.row-cols-1.row-cols-md-3.g-4 .col {
-        margin-left: 0 !important;
-    }
+  
+  }
+
+
+  .row {
+      margin-left: 0.5rem;
+      width: 100%;
+  }
+
+  .card-title1 {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-text1 {
+   
+    color: white;
+    font-family: "Gloria Hallelujah";
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  
+/* Featured start here */
+
+.card-titlef {
+  color: rgb(8, 8, 8);
+  z-index: auto;
+  font-family: "Gloria Hallelujah", cursive;
+   margin-bottom: 2rem; 
+  margin-top: 1rem;
+  margin-left: 35%;
+  font-size: 3.5rem;
+  font-weight: 400;
+ 
+} 
+
+
+.card{
+  width:auto;
+  margin-left: 0;
+}
+
+.body-fluid {
+  margin-bottom: 6rem;
+}
+
+/* Featured end */
+
+/* Contact */
+
+.card-titlec {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+
+  /* footer section*/
+ 
+
+  .h2-footer {
+    color: rgb(250, 240, 240);
+    z-index: auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+  }
+
+  
+.info_logo {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info_contact{
+  justify-content: center;
+  margin-bottom: 5rem;
+  align-items: center;
+  align-self: center;
+}
+.info_contact h5{
+ font-size: x-large;
+}
+
+
+.info_info{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+
+.info_info p{
+ margin-left: 4rem;
+}
+
+.info_info h5 {
+  font-size: x-large;
+}
+
+.info_form{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+}
+
+.info_form h5 {
+  font-size: x-large;
+}
+
+
+.card-buttons .btn-wrap1 {
+  margin-top: 10px;
+}
+.container, .container-sm {
+  max-width: 950px;
+}
+
+
 }
 

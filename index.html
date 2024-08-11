@@ -5,101 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
     <title>The Jay Store</title>
 </head>
 <body>
-    
-         
-      
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <img src="./images/Pink White Simple Boutique Logo.png" alt="logo" loading="lazy" width="45px" height="40px">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/admin.html">Admin</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/contact.html">Contact</a>
-              </li>
-            </ul>
-
-          </div>
+            <img class="logo" src="./images/Pink White Simple Boutique Logo.png" alt="logo" loading="lazy" width="100px" height="80px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/admin.html">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      
+    </nav>
 
-      <body>
-        <div class="img">
-          <img src="https://i.postimg.cc/PrLdkcDf/Untitled-design.png" class="d-block w-100" alt="Background" loading="lazy">
-        
-          <a href="./html/contact.html" class="btn btn-primary" style="
-          z-index: 10; 
-          margin-left: 17%;
-          margin-top: -20%;
-           ">Connect with us</a>
-
-      
-      
+    <div class="card1 text-white" style="border: none; position: relative;">
+        <img class="home-img" src="./images/Home (2).png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h5 class="card-title1">Modern style for the little one</h5>
+            <p class="card-text1">Discover products that bring ease for kids without worry. Quality and comfort are  <br> our main vision in designing the products, providing only the best for you.</p>
         </div>
+        <a href="#featured"><i class="bi bi-chevron-double-down scroll-down-arrow"></i></a>
+    </div>
+
+    <div class="body-fluid" >
+        <div class="row">
+            <div class="col col-12 justify-content-center align-items-center">
+              <h5 class="card-titlef">Featured</h5>
+                <!-- <img src="./images/Featured.png" class="d-block w-100" alt="Background" loading="lazy"> -->
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-5 featured-item" id="featured" >
+            <!-- Featured items will go here -->
+        </div>
+    </div>
+
+    <div class="container-fluid" style="border: none; position: relative;">
+        <img src="./images/Contact (3).png" class="contact-img" alt="Background" loading="lazy" width="100%">
+        <div class="card-img-overlay">
+            <h5 class="card-titlec">Contact Us</h5>
+        </div>
+    </div>
+
+    <div class="form-main">
+        <div class="main-wrapper">
+            <form action="https://formspree.io/f/mzbqwerb" method="post" class="form-wrapper">
+                <div class="form-card">
+                    <input class="form-input" type="text" name="full_name" required="required" />
+                    <label class="form-label" for="full_name">Full Name</label>
+                </div>
+                <div class="form-card">
+                    <input class="form-input" type="email" name="email" required="required" />
+                    <label class="form-label" for="email">Email</label>
+                </div>
+                <div class="form-card">
+                    <input class="form-input" type="number" name="phone_number" required="required" />
+                    <label class="form-label" for="phone_number">Phone number</label>
+                </div>
+                <div class="form-card">
+                    <textarea class="form-textarea" maxlength="420" rows="3" name="address" required="required"></textarea>
+                    <label class="form-textarea-label" for="address">Address</label>
+                </div>
+                <div class="btn-wrap">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
   
-      </body>
-     
-
-
-      
-
-      
-      
-
-      
-
-
-          <div class="body-fluid" style=" margin-bottom: 10rem;">
-    <div class="row" >
-        <div class="col col-12 justify-content-center align-items-center">
-          <img src="./images/Featured.png" class="d-block w-100" alt="Background" loading="lazy">
+   <!-- Info section -->
+<section class="info_section layout_padding2">
+    <div class="container">
+        <div class="info_logo">
+            <h2 class="h2-footer">THE JAY STORE</h2>
         </div>
-      </div>
-      
-      <div class="row row-cols-1 row-cols-md-3 g-4 featured-item" id="featured" style=" margin-left: 7rem; " >
 
+        <div class="info_grid">
+            <div class="info_contact">
+                <h5>Get in touch</h5>
+                <p><i class="bi bi-telephone-inbound-fill"></i> +27 4140 8580</p>
+                <p><i class="bi bi-envelope-at-fill"></i> info@thejaystore.com</p>
+            </div>
 
+            <div class="info_info">
+                <h5>About Us</h5>
+                <p>
+                    Jay Store is an online store selling kiddies jackets that are fashionable, high quality, and affordable.
+                    We understand that shopping for babies is not an easy task, but at Jay Store, we provide a helping hand to the parents with jackets made with love🤗😍.
+                </p>
+            </div>
 
-      </div>
-    </div>   
- 
+            <div class="info_form">
+                <h5>Newsletter</h5>
+                <form action="">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <button type="submit" class="btn-sub btn-primary">Subscribe</button>
+                </form>
+                <div class="social_box mt-4">
+                    <a href="#"><i class="bi bi-chat-square-heart"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+    <!-- End info section -->
 
+    <!-- Footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By Jay Store
+            </p>
+        </div>
+    </section>
+    <!-- End footer section -->
 
+    <script>
+        document.getElementById("displayYear").innerText = new Date().getFullYear();
+    </script>
 
-
-
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      <script src="./script/code.js"></script>
-
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./script/code.js"></script>
 </body>
 </html>
-    
-
-        </div>  
- 
-   
-
- 
-
-     
-
-   
-    
