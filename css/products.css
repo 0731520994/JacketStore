@@ -61,19 +61,22 @@
     margin-left: 5rem;
   }
 
+ 
+
 .btn-wrapp {
   font-family: "Gloria Hallelujah", cursive;
   background-color: #B69E6B;
   color: black;
   height: 8rem; 
   border-radius: none;
+  padding: 7px 25px;
   border: none;
   text-decoration: none;
-  padding: 7px 25px;
   line-height: 58px;
   border: 1px solid transparent;
   transition: all 0.5s ease;
   cursor: pointer;
+  
   }
   
   .btn-wrapp:hover {
@@ -299,11 +302,7 @@
   }
   
  
-  .btn-wrapp {
-    padding: 7px 4px; 
-
-  } 
- 
+  
 
 
 @media (min-width: 300px) and (max-width: 350px) {
