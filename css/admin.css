@@ -104,13 +104,13 @@ tr th,tr td{
 
 
 .card-titleA{
-  color: rgb(8, 8, 8);
+  color: transparent;
   z-index: auto;
   font-family: "Gloria Hallelujah", cursive;
   font-weight: 400;
   font-size: 5rem;
    margin-bottom: 2rem; 
-  margin-top: 6rem;
+  margin-top: 5rem;
   margin-left: 40%;
  
 }

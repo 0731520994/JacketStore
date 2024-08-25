@@ -83,7 +83,11 @@
   }
   
   .jacket {
-    font-family: "Gloria Hallelujah", cursive;
+   
+      border:2px solid #B69E6B;
+      background-color: transparent;
+      color: black;
+      font-family: "Gloria Hallelujah", cursive;
   }
   
   .card-title, .card-text {
@@ -149,151 +153,6 @@
   }
 
 
- 
-.jacket{
-  border:2px solid #B69E6B;
-  background-color: transparent;
-  color: black;
-}
-
-
-
-@media (min-width:342px) and (max-width: 413px) {
-  
-  .jacket{
-    margin-left: 2.5rem;
-  }
-  
-  .btn-wrap1 {
-    margin-left: 2rem;
-  } .info_grid {
-  
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-  
-  }
-  
-@media (min-width:376px) and (max-width: 429px) {
-  
-  .jacket{
-    margin-left: 6rem;
-  }
-  
-  .btn-wrapp {
-    margin-left: 4.7rem;
-  }
-  
-  .info_grid {
-  
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-  
-  }
-  
-  
-  @media (min-width: 300px) and (max-width: 400px) {
-  
-    .logo {
-      z-index: 5;
-      margin-bottom: 1rem;
-    }
-  
-
-  
-  .row{
-    margin-right: 2rem;
-  }
-  .card{
-    width:auto;
-    margin-left: 0;
-  }
-  
-  .body-fluid {
-    margin-bottom: 6rem;
-  }
-  
-  
-    /* footer section*/
-   
-  
-    .h2-footer {
-      color: rgb(250, 240, 240);
-      z-index: auto;
-      font-family: "Gloria Hallelujah", cursive;
-      font-weight: 300;
-      font-size: 3rem;
-      margin-bottom: 2rem;
-      margin-top: 11rem;
-    }
-  
-    
-  .info_logo {
-    width: 80%;
-    margin: 0 auto 38px auto;
-    padding-bottom: 4px;
-    text-align: center;
-    border-bottom: 1px solid #ffffff;
-  }
-  
-  .info_contact{
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-    align-self: center;
-  }
-  .info_contact h5{
-   font-size: x-large;
-  }
-  
-  
-  .info_info{
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-    align-self: center;
-    width: 100%;
-  }
-  
-  .info_info p{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  
-  .info_info h5 {
-    font-size: x-large;
-  }
-  
-  .info_form{
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-    align-self: center;
-    width: 90%;
-  }
-  
-  .info_form h5 {
-    font-size: x-large;
-  }
-  
-  
-  .card-buttons .btn-wrap1 {
-    margin-top: 10px;
-  }
-  
-  .info_grid {
-  
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-  }
-  
-  
-  
   @media screen  and (max-width: 299px) {
   
     .logo {
@@ -439,8 +298,167 @@
   
   }
   
+ 
+  .btn-wrapp {
+    padding: 7px 4px; 
+
+  } 
+ 
+
+
+@media (min-width: 300px) and (max-width: 350px) {
+  .btn-wrapp {
+    padding: 7px 4px; 
+    margin-left: 1.2rem;
+  }
+
+  .jacket{
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width:351px) and (max-width: 400px) {
+  
+  .jacket{
+    margin-left: 1.2rem;
+    margin-right: 5rem;;
+  }
+  
+  .btn-wrapp {
+    padding: 7px 4px; 
+    margin-left: 1.2rem;
+  } 
+  
+  .info_grid {
+  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  }
+  
+@media (min-width:401px) and (max-width: 450px) {
+  
+  /* .jacket{
+    margin-left: 1.5rem;
+    margin-right: 5rem;;
+  }
+*/
+  .btn-wrapp {
+    padding: 7px 12px; 
+
+  }  
+   
+  
+  .info_grid {
+  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  }
+  
+  
+ 
   
   @media (min-width: 300px) and (max-width: 400px) {
+
+      
+  
+    .logo {
+      z-index: 5;
+      margin-bottom: 1rem;
+    }
+  
+
+  
+  .row{
+    margin-right: 2rem;
+  }
+  .card{
+    width:auto;
+    margin-left: 0;
+  }
+  
+  .body-fluid {
+    margin-bottom: 6rem;
+  }
+  
+  
+    /* footer section*/
+   
+  
+    .h2-footer {
+      color: rgb(250, 240, 240);
+      z-index: auto;
+      font-family: "Gloria Hallelujah", cursive;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      margin-top: 11rem;
+    }
+  
+    
+  .info_logo {
+    width: 80%;
+    margin: 0 auto 38px auto;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .info_contact{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+  }
+  .info_contact h5{
+   font-size: x-large;
+  }
+  
+  
+  .info_info{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+  }
+  
+  .info_info p{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .info_info h5 {
+    font-size: x-large;
+  }
+  
+  .info_form{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+  }
+  
+  .info_form h5 {
+    font-size: x-large;
+  }
+  
+  
+  .card-buttons .btn-wrap1 {
+    margin-top: 10px;
+  }
+  
+  .info_grid {
+  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   
     .logo {
       z-index: 5;
@@ -729,6 +747,11 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .btn-wrapp {
+    padding: 7px 12px; 
+    
+  }
   
   }
   
@@ -778,8 +801,8 @@
     margin-right: 2rem;
   }
   .card{
-    width:auto;
-    margin-left: 0;
+    width:90%;
+ 
   }
   
   .body-fluid {
@@ -872,9 +895,13 @@
   .info_grid {
   
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
   
+  .btn-wrapp {
+    padding: 7px 12px; 
+    
+  }
   }
   
   
@@ -1031,6 +1058,11 @@
   .container, .container-sm {
     max-width: 750px;
   }
+
+  .btn-wrapp {
+    padding: 7px 14px; 
+    
+  }
   
   }
   
@@ -1164,7 +1196,10 @@
   .container, .container-sm {
     max-width: 750px;
   }
-  
+  .btn-wrapp {
+    padding: 7px 14px; 
+    
+  }
   
   }
   
@@ -1194,7 +1229,7 @@
       margin-bottom: 4rem;
     }
   
-    
+
   /* Featured start here */
   
   .card-titlef {
@@ -1299,13 +1334,17 @@
     max-width: 650px;
   }
   
-   .jacket{
-      margin-left: 2.5rem;
-     }
-     
-     .btn-wrapp {
-       margin-left: 1.1rem;
-     } 
+         
+  .jacket{
+    margin-left: 1.2rem;
+    margin-right: 5rem;
+    
+  }
+  
+  .btn-wrapp {
+    padding: 7px 4px; 
+    margin-left: 1.2rem;
+  } 
   
      .container, .container-sm {
       max-width: 850px;
@@ -1313,7 +1352,21 @@
   
   }
 
-    
+  
+  @media (min-width: 801px) and (max-width: 828px) {
+  
+     
+  .jacket{
+    margin-left: 1.2rem;
+    margin-right: 5rem;;
+  }
+  
+  .btn-wrapp {
+    padding: 7px 4px; 
+    margin-left: 1.2rem;
+
+  }
+}
   
   @media (min-width: 801px) and (max-width: 900px) {
     .row {
@@ -1448,14 +1501,15 @@
     max-width: 650px;
   }
   
-   .jacket{
+   /* .jacket{
       margin-left: 2.6rem;
-     }
-     
-     .btn-wrapp {
-       margin-left: 1.3rem;
-     } 
+     } */
+
   
+  .btn-wrapp {
+    padding: 7px 4px; 
+
+  } 
      .container, .container-sm {
       max-width: 850px;
   }
@@ -1464,33 +1518,30 @@
 
   @media (min-width:858px) and (max-width: 900px) {
   
-    .jacket{
-      margin-left: 4rem;
-    }
-    
-    .btn-wrapp {
-      margin-left: 2.5rem;
-    }
+   
     
     .info_grid {
     
       display: grid;
       grid-template-columns: 1fr;
     }
-    
+    .btn-wrapp {
+      padding: 7px 12px; 
+      
+    }
     
     }
 
     
 @media (min-width:901px) and (max-width: 951px) {
   
-  .jacket{
-    margin-left: 3.6rem;
-  }
+      
+
   
   .btn-wrapp {
-    margin-left: 2.4rem;
-  }
+    padding: 7px 14px; 
+
+  } 
   
   .info_grid {
   
@@ -1631,6 +1682,10 @@
   }
   .container, .container-sm {
     max-width: 950px;
+  }
+  .btn-wrapp {
+    padding: 7px 14px; 
+    
   }
   
   
@@ -1781,7 +1836,10 @@
     max-width: 950px;
   }
   
-  
+  .btn-wrapp {
+    padding: 7px 16px; 
+    
+  }
   }
   
   
